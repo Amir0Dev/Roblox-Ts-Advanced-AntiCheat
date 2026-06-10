@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "noLib": true,
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "src",
+    "outDir": "out",
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "*": ["*"]
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@rbxts",
+      "node_modules/@flamework"
+    ],
+    "plugins": [
+      {
+        "transform": "rbxts-transformer-flamework"
+      }
+    ],
+    "strict": true
+  },
+  "include": ["src"]
+}
