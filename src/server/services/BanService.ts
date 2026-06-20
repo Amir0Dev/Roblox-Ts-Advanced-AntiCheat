@@ -153,7 +153,7 @@ export class BanService implements OnStart {
 	public onStart() {
 		BanService.instance = this;
 		this.BanStore = DataStoreService.GetDataStore("DelayedBans");
-		this.StatsStore = DataStoreService.GetDataStore("BanStats");
+		this.StatsStore = DataStoreService.GetDataStore("B	anStats");
 
 		Players.PlayerAdded.Connect((p) => this.checkDelayedBans(p));
 	}
