@@ -24,7 +24,7 @@ Designed to be **reliable**, highly effective against exploits, and thoroughly t
 > Instantly detects injections from Xeno, which is currently one of the most widely used free exploits among PC and laptop players.
 
 **High Memory Scripts**
-> Automatically catches any hidden or unauthorized scripts that consume abnormally high memory.
+> catches any scripts that consume abnormally high memory.
 
 ---
 > [!NOTE]
