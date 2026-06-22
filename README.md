@@ -28,18 +28,16 @@ Designed to be **reliable**, highly effective against exploits, and thoroughly t
 
 ---
 > [!NOTE]
-This project includes many more detections that are not listed here. You can explore the full codebase directly inside the `src` directory.
-
+> This project includes many more detections that are not listed here. You can explore the full codebase directly inside the `src` directory.
 
 ---
 
 ## ⚙️ How It Works
-Once abnormal activity is detected, the system takes immediate action
+Once abnormal activity is detected, the system takes immediate action:
 
-* **Client-Side:** Sends a RemoteEvent with a ID like `2ff` which means a NoClip attempt.
+* **Client-Side:** Sends a RemoteEvent with an ID like `2ff` which means a NoClip attempt.
 * **Server-Side:** Simply calls `BanService` with 2 arguments: the offending player and the ID.
 * **Ban Service:** `src/server/services/BanService.ts` reads the attached arguments and executes the specific punishment for the passed ID.
-<img width="1227" height="333" alt="Screenshot 2026-06-21 011218" src="https://github.com/user-attachments/assets/e544e402-c461-4d41-bc60-2c9b7866473b" />
 
 ---
 
@@ -75,6 +73,11 @@ All client-sided scripts are fully obfuscated. Of course, this will not stop hac
 
 </div>
 
+---
+
+### 🛠️ Fully Customizable BanService
+The system features a well-organized and fully customizable `BanService`. For example, you can set a delay before applying a ban. This prevents exploiters from knowing exactly what caused their scripts to be detected.
+<img width="1227" height="333" alt="Screenshot 2026-06-21 011218" src="https://github.com/user-attachments/assets/e544e402-c461-4d41-bc60-2c9b7866473b" />
 ---
 > [!WARNING]
 > This repository is only for showcase purposes. Please do not use, copy, any part of this project without my permission.
