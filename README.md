@@ -39,7 +39,7 @@ Designed to be <b>reliable</b>, highly effective against exploits, and thoroughl
 </div>
 
 > [!IMPORTANT]
-> Exploiters usually hide their scripts menus inside the `CoreGui` because Roblox strictly blocks developers from accessing it. Despite this, this AntiCheat uses a **clever and unique method** to detect any scripts hiding in the CoreGui.
+> Exploiters usually hide their scripts menus inside the `CoreGui` because Roblox strictly blocks developers from accessing it. Despite this, this AntiCheat uses a **unique method** to detect any scripts hiding in the CoreGui.
 
 <br />
 
