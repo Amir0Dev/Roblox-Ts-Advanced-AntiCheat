@@ -8,7 +8,7 @@
 
 # VoidGuard Anticheat
 
-### *A highly optimized, reliable, and advanced AntiCheat system.*
+### A highly optimized, reliable, and advanced AntiCheat system.
 
 </div>
 
